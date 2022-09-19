@@ -1,0 +1,29 @@
+.alt-header{
+    padding:var(--horizontal-space);
+    margin-bottom: 15px;
+    padding-top:40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alt-header__title{
+    font-size:28px;
+    font-weight: 600;
+}
+
+.alt-header__column:first-child{
+    opacity: 0.7;
+}
+
+/*.alt-header__column-chat-header{
+    display: flex;
+}
+.alt-header__column-chat-header div:first-child{
+    margin-right: 20px;
+}*/
+
+.alt-header__column span:last-child{
+    margin-left:20px;
+}
+

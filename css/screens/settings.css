@@ -1,0 +1,38 @@
+.settings-list{
+
+}
+
+.settings__setting{
+    padding:20px 0px;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    font-size:18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting i{
+    margin-right: 20px;
+    font-size:22px;
+    opacity: 0.6;
+}
+
+.settings_setting-column:last-child{
+    opacity: 0.5;
+}
+
+@keyframes appearList{
+    from{
+        opacity: 0;
+        transform: translateX(30px);
+        
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+.settings_setting-column{
+    animation:appearList 1s ease-in-out ;
+    
+}
